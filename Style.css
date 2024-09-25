@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+p{
+    color: #d2cdcd;
+    line-height: 1.4;
+}
+
+/* --------------- Navbar Style ---------- */
+nav{
+    background-color: rgb(102 102 102);
+    height: 60px;
+}
+
+/* -------------- Main Style ---------- */
+div.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* ----- side left ----- */
+.main .left{
+    flex-basis: 56%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+/* head */
+.left .head-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+}
+.head-left .head-button{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.head-left .head-button span{
+    flex-basis: 32%;
+    background-color: #c5c5c5;
+}
+.back-div{
+    height: 270px;
+}
+
+.left .list{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left .list .item{
+    flex-basis: 18%;
+}
+.list .item div{
+    height: 144px;
+    background-color: #c6c6c6;
+}
+
+/* ----- side right ----- */
+.main .right{
+    flex-basis: 36%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.right .head-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 30px;
+    column-gap: 5px;
+}
+.right .head-right span{
+    height: 18px;
+    background-color: #c5c5c5;
+    flex-basis: 20px;
+}
+.right .head{
+    background-color: #999999;
+    height: 40px;
+}
+.feat-list div{
+    height: 108px;
+    width: 149px;
+    float: left;
+    background-color: #c6c6c6;
+    margin-right: 16px;
+}
+hr{
+    height: 3px;
+    background-color: #bebebe;
+    width: 100%;
+}
